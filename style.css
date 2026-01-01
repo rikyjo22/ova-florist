@@ -257,6 +257,12 @@ main .contact h1{
     line-height: 90px;
 }
 
+main .contact p{
+    text-align: center;
+    font-family:Sunflower;
+    color: #533223;
+}
+
 main  .contact h2{
     color: #5B7451;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -297,5 +303,6 @@ main .contact .box div a{
 main .contact .box div:hover{
     transform: scale(1.1);
 }
+
 
 
