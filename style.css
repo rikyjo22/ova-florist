@@ -52,6 +52,7 @@ header  .box{
 header .box a{
     text-decoration: none;
     color:#533223;
+    display:flex;
 }
 header .box a .logo{
     display: flex;
@@ -303,6 +304,7 @@ main .contact .box div a{
 main .contact .box div:hover{
     transform: scale(1.1);
 }
+
 
 
 
