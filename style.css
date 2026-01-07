@@ -38,6 +38,7 @@ header{
     display: flex;
     /* background-color: lavender; */
     justify-content: center;
+
 }
 
 header  .box{
@@ -52,12 +53,14 @@ header  .box{
 header .box a{
     text-decoration: none;
     color:#533223;
-    display:flex;
+    /* background-color: #5B7451; */
+    display: flex;
 }
 header .box a .logo{
     display: flex;
     align-items: center;
     gap: 10px;
+    /* background-color: aliceblue; */
 }
 
 header .box  a .logo p{
@@ -66,6 +69,7 @@ header .box  a .logo p{
     /* background-color: red; */
     display: flex;
     align-items: center;
+    /* background-color: aliceblue; */
 }
 
 header .box nav{
@@ -263,7 +267,6 @@ main .contact p{
     font-family:Sunflower;
     color: #533223;
 }
-
 main  .contact h2{
     color: #5B7451;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -280,31 +283,39 @@ main .contact h3{
    font-size: 30px;
 }
 main .contact .box div{
-    background-color: #5B7451;
+    /* background-color: #5B7451; */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
     border-radius: 10px;
     gap: 10px;
-    color: #C2C4A6;
+    background-color:#533223 ;
     border: 2px #C2C4A6 solid;
     cursor: pointer;
     transition: transform 0.5s ease;
     font-family: Sunflower;
+    flex-direction: column;
+    
 }
 
+main .contact .box div p{
+    color: white;
+}
+
+main .contact .box .list .whatsapp{
+    justify-content: space-between;
+}
 main .contact .box div a{
    text-decoration: none;
-   color: #C2C4A6;
+   justify-content: space-between;
    display: flex;
    align-items: center;
+   flex-direction: column;
    gap: 10px;
 }
 main .contact .box div:hover{
     transform: scale(1.1);
 }
-
-
 
 
