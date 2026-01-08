@@ -256,10 +256,10 @@ main .contact{
 
 main .contact h1{
     font-family: Florist;
-    font-size: 120px;
+    font-size: 6rem;
     color: #533223;
     text-align: center;
-    line-height: 90px;
+    line-height: 4.5rem;
 }
 
 main .contact p{
@@ -317,5 +317,6 @@ main .contact .box div a{
 main .contact .box div:hover{
     transform: scale(1.1);
 }
+
 
 
